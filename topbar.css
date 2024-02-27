@@ -1,0 +1,47 @@
+.top{
+  
+   top:0;
+   left:0;
+
+   width:100%;
+   height:50px;
+   background: white;
+   color:black;
+
+   position:sticky;
+   display:flex;
+   align-items: center;
+   color:black;
+   font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif', serif;
+z-index:999;
+   
+}
+.topLeft,.topRight{
+   font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif', serif;
+   flex:10;
+   
+
+}
+.topCenter{
+   flex:20;
+}
+
+.topList{
+   display:flex;
+   list-style: none;
+   justify-content:center;
+   margin: 0;
+   padding:0;
+
+}
+.topListItem{
+   margin-right:12px;
+   padding:12px;
+   cursor:pointer;
+   font-size:25px;
+   font-weight:300;
+   font-family: 'Permanent Marker', cursive;
+
+ }

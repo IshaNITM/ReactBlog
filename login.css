@@ -1,0 +1,55 @@
+.login{
+   height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(
+     rgba(255,255,255,0.5),
+    rgba(255,255,255,0.5)
+    
+    ),
+    url('https://th.bing.com/th/id/R.113cede387433eb08f67384cbd84c1c6?rik=wizZnvoPz0pDTQ&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1585852738589-c585bb9a05b2%3fcrop%3dentropy%26cs%3dtinysrgb%26fit%3dmax%26fm%3djpg%26ixid%3dMnwxMjA3fDB8MXxzZWFyY2h8M3x8b3BlbmVkJTIwYm9va3x8MHx8fHwxNjIxNTMyNDU4%26ixlib%3drb-1.2.1%26q%3d80%26w%3d1080&ehk=%2fGzW5rg0XoH9bGdOom30Rz4aVYNF4g85jSRv1cvc85Y%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+}
+.loginForm{
+font-size: 20px;
+margin-top:50px;
+display:flex;
+flex-direction:column;
+
+
+}
+.loginForm >label{
+    margin:10px 0;
+
+}
+.loginTitle{
+    font-size: 40px;
+    text-align: center;
+}
+.loginInput{
+    padding:10px;
+    background-color: white;
+    border:none;
+}
+.loginButton{
+    margin-top:20px;
+    background-color:rgb(153, 161, 168);
+    cursor:pointer;
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+}
+.loginRegisterButton{
+top:60px;
+right:20px;
+position: absolute;
+color:white;
+background-color:teal;
+cursor:pointer;
+border:none;
+border-radius: 10px;
+padding:10px;
+}
